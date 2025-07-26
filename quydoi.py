@@ -40,7 +40,7 @@ KhoangQuydoiTheoPhuongThuc = {
 }
 
 def main():
-    st.title("Công cụ quy đổi điểm xét tuyển FTU chương trình chuẩn")
+    st.title("Công cụ quy đổi điểm xét tuyển FTU      chương trình chuẩn")
 
     phuongthuc_display = st.selectbox("Chọn phương thức xét tuyển:", ["V-ACT", "HSA", "THPT Quốc gia (A00 hoặc tổ hợp khác)"])
     phuongthuc_key = "V-ACT" if "V-ACT" in phuongthuc_display else ("HSA" if "HSA" in phuongthuc_display else "THPT")
